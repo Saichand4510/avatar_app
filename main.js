@@ -108,7 +108,10 @@ function init() {
   );
   camera.position.set(0, 1.5, 3);
 
-  renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer = new THREE.WebGLRenderer({ 
+  antialias: true,
+  preserveDrawingBuffer: true   // 🔥 IMPORTANT
+});
   renderer.setSize(window.innerWidth, window.innerHeight);
   document.body.appendChild(renderer.domElement);
 

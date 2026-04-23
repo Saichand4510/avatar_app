@@ -43,7 +43,7 @@ It allows users to interact with a 3D avatar and dynamically modify its appearan
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/avatar_app
+git clone https://github.com/Saichand4510/avatar_app.git
 ```
 
 ### 2. Navigate to project folder
